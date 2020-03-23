@@ -13,9 +13,9 @@ ReadinessValue = 0
 ReadinessValue2 = 200
 
 # Get pixel brightnesses
-result = (RedValue + GreenValue + BlueValue) / 3
-result2 = (RedValue2 + GreenValue2 + BlueValue2) / 3
+pixel_brightness = (RedValue + GreenValue + BlueValue) / 3
+pixel_brightness2 = (RedValue2 + GreenValue2 + BlueValue2) / 3
 
 # Get mean brightness
-result3 = (result + result2) / 2
-print(result3)
+pixel_brightness3 = (pixel_brightness + pixel_brightness2) / 2
+print(pixel_brightness3)
