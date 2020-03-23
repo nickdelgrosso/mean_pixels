@@ -2,10 +2,13 @@
 
 x = 100  # Red value
 x2 = 50
+
 y = 0  # Green value
 y2 = 100
+
 z = 0  # Blue value
 z2 = 0
+
 w = 0  # Readiness value
 w2 = 200
 
