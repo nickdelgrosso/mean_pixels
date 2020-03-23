@@ -3,7 +3,7 @@
 x = 100  # Red value
 x2 = 50
 
-y = 0  # Green vaddfdflue
+y = 0  # Green value
 y2 = 100
 
 z = 0  # Blue value
