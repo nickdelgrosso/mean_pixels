@@ -15,5 +15,5 @@ readiness_value2 = 200
 pixel_brightness = (red_value + green_value + blue_value) / 3
 pixel_brightness2 = (red_value2 + green_value2 + blue_value2) / 3
 
-pixel_brightness3 = (pixel_brightness + pixel_brightness2) / 2
-print(pixel_brightness3)
+mean_brightness = (pixel_brightness + pixel_brightness2) / 2
+print(mean_brightness)
