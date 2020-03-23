@@ -12,10 +12,8 @@ BlueValue2 = 0
 ReadinessValue = 0
 ReadinessValue2 = 200
 
-# Get pixel brightnesses
 pixel_brightness = (RedValue + GreenValue + BlueValue) / 3
 pixel_brightness2 = (RedValue2 + GreenValue2 + BlueValue2) / 3
 
-# Get mean brightness
 pixel_brightness3 = (pixel_brightness + pixel_brightness2) / 2
 print(pixel_brightness3)
