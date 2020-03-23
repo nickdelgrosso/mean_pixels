@@ -1,19 +1,19 @@
 # This is my project!
 
-RedValue = 100
-RedValue2 = 50
+red_value = 100
+red_value2 = 50
 
-GreenValue = 0
-GreenValue2 = 100
+green_value = 0
+green_value2 = 100
 
-BlueValue = 0
-BlueValue2 = 0
+blue_value = 0
+blue_value2 = 0
 
-ReadinessValue = 0
-ReadinessValue2 = 200
+readiness_value = 0
+readiness_value2 = 200
 
-pixel_brightness = (RedValue + GreenValue + BlueValue) / 3
-pixel_brightness2 = (RedValue2 + GreenValue2 + BlueValue2) / 3
+pixel_brightness = (red_value + green_value + blue_value) / 3
+pixel_brightness2 = (red_value2 + green_value2 + blue_value2) / 3
 
 pixel_brightness3 = (pixel_brightness + pixel_brightness2) / 2
 print(pixel_brightness3)
