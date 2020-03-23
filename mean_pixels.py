@@ -1,8 +1,8 @@
 # This is my project!
-
+import statistics
 
 def calculate_pixel_brightness(x, y, z):
-    brightness = (x + y + z) / 3
+    brightness = statistics.mean([x, y, z])
     return brightness
 
 
@@ -12,5 +12,5 @@ pixel_brightness = calculate_pixel_brightness(pixel['red'], pixel['green'], pixe
 pixel2 = {'red': 50, 'green': 100, 'blue': 0}
 pixel_brightness2 = calculate_pixel_brightness(pixel2['red'], pixel2['green'], pixel2['blue'])
 
-mean_brightness = (pixel_brightness + pixel_brightness2) / 2
+mean_brightness = statistics.mean([pixel_brightness, pixel_brightness2])
 print(mean_brightness)
